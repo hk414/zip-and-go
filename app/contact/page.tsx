@@ -111,7 +111,7 @@ export default function Contact() {
                 height="100%"
                 frameBorder="0"
                 style={{ border: 0 }}
-                src="https://www.google.com/maps/embed/v1/place?q=Manchester&key=AIzaSyAqybiN598uZ2aLHu-Yvj1I2QeoVt1Goyg"
+                src="https://www.google.com/maps/embed/v1/place?q=Manchester&key=API-KEY"
                 allowFullScreen
               />
             </div>

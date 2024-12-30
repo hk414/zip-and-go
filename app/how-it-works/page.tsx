@@ -9,21 +9,21 @@ export default function HowItWorks() {
       name: 'Post Your Task', 
       description: 'Share your errand details, including task description and location.', 
       icon: CheckCircle, 
-      imageURL: 'images/user-phone-mockup-1.png',
+      imageURL: './images/user-phone-mockup-1.png',
       mockupPosition: 'left' 
     },
     { 
       name: 'Choose Pool Purchase', 
       description: 'Choose to make this task a pool purchase or join others\' pool for savings.', 
       icon: Users, 
-      imageURL: 'images/user-phone-mockup-2.png',
+      imageURL: './images/user-phone-mockup-2.png',
       mockupPosition: 'right' 
     },
     { 
       name: 'Connect & Pay', 
       description: 'Set up your delivery preferences and make secure payments.', 
       icon: DollarSign, 
-      imageURL: 'images/user-phone-mockup-3.png',
+      imageURL: './images/user-phone-mockup-3.png',
       mockupPosition: 'left' 
     },
   ];
@@ -33,21 +33,21 @@ export default function HowItWorks() {
       name: 'Browse Tasks', 
       description: 'Browse available tasks in your area and choose one that fits your skills.', 
       icon: Clock, 
-      imageURL: 'images/user-phone-mockup-1.png',
+      imageURL: './images/user-phone-mockup-1.png',
       mockupPosition: 'left' 
     },
     { 
       name: 'Accept Task', 
       description: 'Accept the task and review the details before proceeding.', 
       icon: Zap, 
-      imageURL: 'images/user-phone-mockup-2.png',
+      imageURL: './images/user-phone-mockup-2.png',
       mockupPosition: 'right' 
     },
     { 
       name: 'Complete the Task', 
       description: 'Complete the task quickly and efficiently, ensuring customer satisfaction.', 
       icon: CheckCircle, 
-      imageURL: 'images/user-phone-mockup-3.png',
+      imageURL: './images/user-phone-mockup-3.png',
       mockupPosition: 'left' 
     },
   ];
@@ -142,7 +142,7 @@ export default function HowItWorks() {
                   className="inline-flex flex-col items-center px-6 py-4 text-base font-medium rounded-lg text-white bg-black hover:bg-green-600 transition duration-300"
                 >
                   <img
-                    src="/images/playstore.png"
+                    src="./images/playstore.png"
                     alt="Google Play Store"
                     className="h-8"
                   />
@@ -158,7 +158,7 @@ export default function HowItWorks() {
                   className="inline-flex flex-col items-center px-6 py-4 text-base font-medium rounded-lg text-white bg-black hover:bg-blue-600 transition duration-300"
                 >
                   <img
-                    src="images/app-store.png"
+                    src="./images/app-store.png"
                     alt="Apple App Store"
                     className="h-8"
                   />

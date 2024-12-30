@@ -10,10 +10,10 @@ const Header = () => {
   const pathname = usePathname()
 
   const navItems = [
-    { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
-    { name: 'How It Works', href: '/how-it-works' },
-    { name: 'Contact', href: '/contact' },
+    { name: 'Home', href: './' },
+    { name: 'About', href: './about' },
+    { name: 'How It Works', href: './how-it-works' },
+    { name: 'Contact', href: './contact' },
   ]
 
   return (
@@ -25,7 +25,7 @@ const Header = () => {
             <div className="flex items-center space-x-2">
               <img
                 className="h-8 w-auto sm:h-10"
-                src="/images/zip.jpg"
+                src="./images/zip.jpg"
                 alt="Zip&Go"
               />
               <span className="text-xl font-semibold">Zip&Go</span>

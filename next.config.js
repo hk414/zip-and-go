@@ -1,11 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    // Enable static export mode
     output: 'export',
-    basePath: '/zip-and-go',
+    // Optimization settings
+    reactStrictMode: true, // Enforces React best practices
+    swcMinify: true, // Use SWC for faster builds and smaller bundle sizes
+  
+    // Image settings for static export (if using <Image>)
     images: {
-      unoptimized: true, // Needed for static export
+      unoptimized: true, // Required for static export
     },
-    trailingSlash: true, // Optional for consistent routing
   };
   
   module.exports = nextConfig;

@@ -2,8 +2,8 @@
 
 import Link from 'next/link';
 import { ArrowRight, CheckCircle, Truck, Smartphone, Lightbulb, Star } from 'lucide-react';
-import MovingBanner from '../components/MovingBanner';
-import ChatBot from '../components/ChatBot'; // Ensure this path is correct or update it to the correct path
+import MovingBanner from '@/components/MovingBanner';
+import ChatBot from '@/components/ChatBot'; // Ensure this path is correct or update it to the correct path
 
 export default function Home() {
   return (
@@ -51,7 +51,7 @@ export default function Home() {
                       className="inline-flex flex-col items-center px-4 py-2 text-base font-medium rounded-lg text-white hover:bg-white transition duration-300"
                     >
                       <img
-                        src="images/technology.png" // Your Android icon
+                        src="./images/technology.png" // Your Android icon
                         alt="Google Play Store"
                         className="h-6 mb-2"
                       />
@@ -65,7 +65,7 @@ export default function Home() {
                       className="inline-flex flex-col items-center px-4 py-2 text-base font-medium rounded-lg text-white hover:bg-white transition duration-300"
                     >
                       <img
-                        src="images/apple-logo.png" // Your Apple icon
+                        src="./images/apple-logo.png" // Your Apple icon
                         alt="Apple App Store"
                         className="h-6 mb-2"
                       />
@@ -76,7 +76,7 @@ export default function Home() {
               </div>
               <div className="mt-8 lg:mt-0 lg:w-1/2 lg:ml-8">
                 <img
-                  src="/images/send-with-motorcycle.png"
+                  src="./images/send-with-motorcycle.png"
                   alt="Illustration of a person running errands"
                   className="w-full max-w-lg mx-auto"
                 />
@@ -144,7 +144,7 @@ export default function Home() {
                 {/* Background Circle for Visual Appeal */}
                 <div className="absolute inset-0 flex justify-center items-center bg-gradient-to-r from-indigo-700 to-indigo-800 rounded-full opacity-30"></div>
                 <img
-                  src="/images/zip.jpg"
+                  src="./images/zip.jpg"
                   alt="Zip&Go App Mockup"
                   className="mx-auto w-full max-w-md rounded-lg shadow-xl transform transition-all hover:scale-105 hover:shadow-2xl"
                 />
@@ -180,7 +180,7 @@ export default function Home() {
                     className="inline-flex flex-col items-center px-6 py-4 text-base font-medium rounded-lg text-white bg-black hover:bg-green-600 transition duration-300"
                   >
                     <img
-                      src="/images/playstore.png"
+                      src="./images/playstore.png"
                       alt="Google Play Store"
                       className="h-8"
                     />
@@ -196,7 +196,7 @@ export default function Home() {
                     className="inline-flex flex-col items-center px-6 py-4 text-base font-medium rounded-lg text-white bg-black hover:bg-blue-600 transition duration-300"
                   >
                     <img
-                      src="images/app-store.png"
+                      src="./images/app-store.png"
                       alt="Apple App Store"
                       className="h-8"
                     />
@@ -220,9 +220,9 @@ export default function Home() {
 
     <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       {[
-        { name: 'Zander Ong', testimonial: 'Zip&Go has been a lifesaver for managing my busy schedule. It’s fast and easy!', image: '/images/user1.png' },
-        { name: 'Edwin Chia', testimonial: 'The convenience is incredible with pool purchase. I can’t imagine life without it now.', image: '/images/user2.png' },
-        { name: 'Yi Hang Lok', testimonial: 'Reliable and affordable, Zip&Go is a must-have for anyone who wants to save time.', image: '/images/user3.png' }
+        { name: 'Zander Ong', testimonial: 'Zip&Go has been a lifesaver for managing my busy schedule. It’s fast and easy!', image: './images/user1.png' },
+        { name: 'Edwin Chia', testimonial: 'The convenience is incredible with pool purchase. I can’t imagine life without it now.', image: './images/user2.png' },
+        { name: 'Yi Hang Lok', testimonial: 'Reliable and affordable, Zip&Go is a must-have for anyone who wants to save time.', image: './images/user3.png' }
       ].map((testimonial, index) => (
         <div key={index} className="bg-white rounded-lg shadow-xl p-8 transition-all transform hover:scale-105 hover:shadow-2xl space-y-6">
           {/* Testimonial Text */}
@@ -256,7 +256,7 @@ export default function Home() {
     <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-8 justify-items-center">
       <div className="flex flex-col items-center">
         <img
-          src="/images/brennynotes.png"
+          src="./images/brennynotes.png"
           alt="Company 1"
           className="h-16 mb-4"
         />
@@ -264,7 +264,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center">
         <img
-          src="/images/notablekingdom.png"
+          src="./images/notablekingdom.png"
           alt="Company 2"
           className="h-16 mb-4"
         />
@@ -272,7 +272,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center">
         <img
-          src="/images/astareasy.png"
+          src="./images/astareasy.png"
           alt="Company 3"
           className="h-16 mb-4"
         />

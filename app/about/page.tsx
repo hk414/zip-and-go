@@ -1,5 +1,5 @@
-import MovingBanner from '../../components/MovingBanner';
-import ChatBot from '../../components/ChatBot';
+import MovingBanner from '@/components/MovingBanner';
+import ChatBot from '@/components/ChatBot';
 import { ChevronDown } from 'lucide-react';
 
 const people = [
@@ -12,7 +12,7 @@ const people = [
   {
     name: 'Hui Xin Koh',
     role: 'CTO',
-    imageUrl: 'images/huikoh.jpg?height=100&width=400',
+    imageUrl: './images/huikoh.jpg?height=100&width=400',
     bio: 'CC is a seasoned software engineer with a focus on creating scalable and efficient platforms.',
   },
   {

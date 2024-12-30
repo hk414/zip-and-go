@@ -16,7 +16,7 @@ export default function DownloadPage() {
           <div className="flex justify-center">
             <div className="w-full max-w-sm overflow-hidden rounded-lg shadow-lg bg-white">
               <Image
-                src="/images/user-phone-mockup-1.png"
+                src="./images/user-phone-mockup-1.png"
                 alt="Zip&Go App Preview"
                 width={400}
                 height={300}
@@ -46,7 +46,7 @@ export default function DownloadPage() {
                   className={`inline-flex flex-col items-center px-4 py-2 text-base font-medium rounded-lg text-white transition duration-300 ${hovered ? 'bg-gray-200' : 'bg-gray-100'}`}
                 >
                   <img
-                    src="images/technology.png" // Your Android icon
+                    src="./images/technology.png" // Your Android icon
                     alt="Google Play Store"
                     className="h-6 mb-2"
                   />
@@ -59,7 +59,7 @@ export default function DownloadPage() {
                   className={`inline-flex flex-col items-center px-4 py-2 text-base font-medium rounded-lg text-white transition duration-300 ${hovered ? 'bg-gray-200' : 'bg-gray-100'}`}
                 >
                   <img
-                    src="images/apple-logo.png" // Your Apple icon
+                    src="./images/apple-logo.png" // Your Apple icon
                     alt="Apple App Store"
                     className="h-6 mb-2"
                   />

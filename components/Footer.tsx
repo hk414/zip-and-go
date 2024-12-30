@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2">
               <img
                 className="h-10"
-                src="images//zip.jpg?height=40&width=40"
+                src="./images//zip.jpg?height=40&width=40"
                 alt="Zip&Go"
               />
               <p className="text-xl font-semibold">Zip&Go</p>

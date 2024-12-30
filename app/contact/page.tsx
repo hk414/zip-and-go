@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { Switch } from '@headlessui/react';
 
+
 function classNames(...classes : string[]) {
   return classes.filter(Boolean).join(' ');
 }
@@ -48,7 +49,10 @@ export default function Contact() {
     }
   };
 
+  const API_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY;
+
   return (
+
     <div className="bg-gray-100 py-20 sm:py-28 lg:py-36">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
@@ -111,7 +115,7 @@ export default function Contact() {
                 height="100%"
                 frameBorder="0"
                 style={{ border: 0 }}
-                src="https://www.google.com/maps/embed/v1/place?q=Manchester&key=API-KEY"
+                src={`https://www.google.com/maps/embed/v1/place?q=Manchester&key=${API_KEY}`}
                 allowFullScreen
               />
             </div>

@@ -5,6 +5,7 @@ const nextConfig = {
     // Optimization settings
     reactStrictMode: true, // Enforces React best practices
     swcMinify: true, // Use SWC for faster builds and smaller bundle sizes
+    basePath: '/zip-and-go',
   
     // Image settings for static export (if using <Image>)
     images: {

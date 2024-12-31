@@ -11,7 +11,7 @@ const people = [
   },
   {
     name: 'Hui Xin Koh',
-    role: 'CTO',
+    role: 'Head of IT',
     imageUrl: './images/huikoh.jpg',
     bio: 'CC is a seasoned software engineer with a focus on creating scalable and efficient platforms.',
   },

@@ -6,25 +6,25 @@ const people = [
   {
     name: 'Xu Qian Chin',
     role: 'CEO & Founder',
-    imageUrl: './placeholder.svg',
+    imageUrl: './images/profile-pic-xuqian.jpg',
     bio: 'Chin is passionate about making everyday tasks easier for people.',
   },
   {
     name: 'Hui Xin Koh',
     role: 'Head of IT',
-    imageUrl: './images/huikoh.jpg',
+    imageUrl: './images/profile-pic-huixin.jpg',
     bio: 'CC is a seasoned software engineer with a focus on creating scalable and efficient platforms.',
   },
   {
     name: 'Wei Ying Chong',
     role: 'Head of Finance',
-    imageUrl: './placeholder.svg',
+    imageUrl: './images/profile-pic-weiying.jpg',
     bio: 'Chong brings years of accounting and finance experience to ensure Zip&Go runs smoothly.',
   },
   {
     name: 'Brenda Chan',
     role: 'Head of Marketing',
-    imageUrl: './placeholder.svg',
+    imageUrl: './images/profile-pic-brenda.jpg',
     bio: 'Brenda is a creative marketing professional dedicated to spreading the word about Zip&Go\'s mission.',
   },
 ];

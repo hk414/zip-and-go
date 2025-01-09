@@ -9,12 +9,13 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [loading, setLoading] = useState(false)  
   const pathname = usePathname()
+  const isProduction = process.env.NEXT_PUBLIC_NODE_ENV === 'production'
 
   const navItems = [
-    { name: 'Home', href: './' },
-    { name: 'About', href: './about' },
-    { name: 'How It Works', href: './how-it-works' },
-    { name: 'Contact', href: './contact' },
+    { name: 'Home', href: isProduction ? './' : '/' },
+    { name: 'About', href: isProduction ? './about' : '/about' },
+    { name: 'How It Works', href: isProduction ? './how-it-works' : '/how-it-works' },
+    { name: 'Contact', href: isProduction ? './contact' : '/contact' },
   ]
 
   const handleLinkClick = () => {
@@ -39,14 +40,17 @@ const Header = () => {
             <Link href="/">
               <div className="flex items-center space-x-2">
                 <img
+                  // full width and height
                   className="h-8 w-auto sm:h-10"
-                  src="./images/zip.jpg"
+                  src="./images/Logo-horizontal-transparent.png"
+                  // src="./images/Logo-transparent.png"
                   alt="Zip&Go"
                 />
                 <span className="text-xl font-semibold">Zip&Go</span>
               </div>
             </Link>
           </div>
+          
           <div className="-mr-2 -my-2 md:hidden">
             <button
               type="button"
@@ -101,10 +105,10 @@ const Header = () => {
                   <div className="flex items-center">
                     <img
                       className="h-8 w-auto sm:h-10"
-                      src="./images/zip.jpg"
+                      src="./images/Logo-horizontal-transparent.png"
                       alt="Zip&Go"
                     />
-                    <span className="ml-2 text-xl font-semibold">Zip&Go</span>
+                    {/* <span className="ml-2 text-xl font-semibold">Zip&Go</span> */}
                   </div>
                   <div className="-mr-2">
                     <button

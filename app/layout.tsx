@@ -17,6 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <link rel="icon" href="./images/Logo-horizontal-transparent.png" />
+      </head>
       <body className={`${inter.className} flex flex-col min-h-screen`}>
         <Header />
         <main className="flex-grow">{children}</main>
@@ -25,4 +30,3 @@ export default function RootLayout({
     </html>
   )
 }
-

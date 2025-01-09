@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { ArrowRight, CheckCircle, Truck, Smartphone, Lightbulb, Star } from 'lucide-react';
 import MovingBanner from '@/components/MovingBanner';
-import ChatBot from '@/components/ChatBot'; // Ensure this path is correct or update it to the correct path
+import ChatBot from '@/components/ChatBot'; 
 
 export default function Home() {
   return (
@@ -19,9 +19,14 @@ export default function Home() {
                 <div className="bg-yellow-400 text-yellow-900 text-sm font-semibold uppercase px-4 py-1 inline-block rounded-full">
                   Launching Soon
                 </div>
-                <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight sm:text-6xl">
-                  Effortless Errands, Anytime, Anywhere
-                </h1>
+                <div>
+                  <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight">
+                  Effortless Errands
+                  </h1>
+                  <h2 className="text-2xl sm:text-3xl font-bold tracking-tight mt-2">
+                  Anytime, Anywhere
+                  </h2>
+                </div>
                 <p className="text-lg text-indigo-200 max-w-xl mx-auto lg:mx-0">
                   Zip&Go connects you with trusted local runners to handle your everyday tasks. Save time, effort, and hassle with our convenient service.
                 </p>
@@ -76,9 +81,8 @@ export default function Home() {
               </div>
               <div className="mt-8 lg:mt-0 lg:w-1/2 lg:ml-8">
                 <img
-                  src="./images/send-with-motorcycle.png"
+                  src="./images/hero-bg.png"
                   alt="Illustration of a person running errands"
-                  className="w-full max-w-lg mx-auto"
                 />
               </div>
             </div>
@@ -122,7 +126,7 @@ export default function Home() {
 
                     {/* Feature Details */}
                     <h3 className="text-lg font-medium text-gray-900">{feature.name}</h3>
-                    <p className="mt-2 text-gray-500">{feature.description}</p>
+                    <p className="mt-2 text-gray-500 text-center">{feature.description}</p>
                   </div>
                 ))}
               </div>

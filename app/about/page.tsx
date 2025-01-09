@@ -119,11 +119,11 @@ export default function About() {
             <div className="space-y-12">
               <div className="flex items-start">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-r from-green-400 to-blue-500 text-white">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4M7 10h10M9 16h6m2 0a2 2 0 100 4 2 2 0 000-4z" />
-                    </svg>
-                  </div>
+                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-600 text-white">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4M7 10h10M9 16h6m2 0a2 2 0 100 4 2 2 0 000-4z" />
+                      </svg>
+                    </div>
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-medium text-gray-900">Empower Local Communities</h3>
@@ -135,7 +135,7 @@ export default function About() {
 
               <div className="flex items-start">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-r from-purple-400 to-pink-500 text-white">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-600 text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 8h16M4 16h16m-8-8v8" />
                     </svg>
@@ -151,7 +151,7 @@ export default function About() {
 
               <div className="flex items-start">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-r from-yellow-400 to-orange-500 text-white">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-600 text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4m0 4h.01M9.379 5.379A12 12 0 1020.621 16.62 12 12 0 009.379 5.38z" />
                     </svg>
@@ -170,7 +170,7 @@ export default function About() {
             <div className="space-y-12">
               <div className="flex items-start">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-r from-red-400 to-pink-500 text-white">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-600 text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3h18v18H3V3z" />
                     </svg>
@@ -186,7 +186,7 @@ export default function About() {
 
               <div className="flex items-start">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-r from-teal-400 to-cyan-500 text-white">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-600 text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
@@ -202,7 +202,7 @@ export default function About() {
 
               <div className="flex items-start">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-r from-blue-400 to-indigo-500 text-white">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-600 text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20.84 4.61A2.12 2.12 0 0018.5 3H5.5a2.12 2.12 0 00-2.34 1.61l-1 7A2.12 2.12 0 004.5 13h15a2.12 2.12 0 001.84-1.39l1-7a2.12 2.12 0 00-.5-1.6zM7 18a4 4 0 008 0" />
                     </svg>

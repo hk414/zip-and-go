@@ -7,11 +7,11 @@ const Footer = () => {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8 xl:col-span-1">
             <div className="flex items-center space-x-2">
-              <img
-                className="h-10"
-                src="./images//zip.jpg?height=40&width=40"
+              {/* <img
+                className="h-10 w-auto sm:h-12 sm:w-auto"  
+                src="./images/Logo-horizontal-transparent.png"
                 alt="Zip&Go"
-              />
+              /> */}
               <p className="text-xl font-semibold">Zip&Go</p>
             </div>
             <p className="text-gray-400 text-base">
